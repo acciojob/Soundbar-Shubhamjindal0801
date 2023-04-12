@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+ body{
+            margin:0;
+            padding:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #A164DF;
+        }
+        *{
+            color:white;
+        }
+        #buttons{
+            display: grid;
+            grid-auto-flow: column;
+			gap:20px;
+        }
+        #buttons button{
+            padding: 15px;
+            border: none;
+            background-color: #663399;
+        }
+        #buttons button:hover{
+            cursor: pointer;
+        }
